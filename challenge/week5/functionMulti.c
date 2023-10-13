@@ -2,13 +2,13 @@
 
 long multiF(int start, int end);
 
-void main()
+int main()
 {
     // multiF 함수를 호출하여 결과를 출력
     printf("1부터 2까지의 곱: %ld\n", multiF(1, 2));
     printf("1부터 3까지의 곱: %ld\n", multiF(1, 3));
     printf("1부터 5까지의 곱: %ld\n", multiF(1, 5));
-
+    return 0;
 }
 
 // for 문을 이용하여 주어진 범위 내의 정수들을 곱하는 multiF 함수 정의
