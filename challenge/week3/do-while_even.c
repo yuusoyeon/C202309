@@ -14,3 +14,4 @@ int main() {
 		//Hello World 출력
 	} while (i < 10);
 	//i가 10보다 작을때까지
+}
